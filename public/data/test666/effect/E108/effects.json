@@ -1,0 +1,33 @@
+{
+    "version": "1.1",
+    "updateTime": "2023-2-10",
+    "skybox": {
+        "type": "box",
+        "name": "night",
+        "resolution": 1024,
+        "size": 1000000,
+        "offsetY": -4000000,
+        "imgPaths": [
+            "images/skybox/dark/px.jpg",
+            "images/skybox/dark/nx.jpg",
+            "images/skybox/dark/py.jpg",
+            "images/skybox/dark/ny.jpg",
+            "images/skybox/dark/pz.jpg",
+            "images/skybox/dark/nz.jpg"
+        ]
+    },
+    "screenEffects": { 
+        "unrealBloom": { 
+            "bloomStrength": 1,
+            "bloomThreshold": 0,
+            "bloomRadius": 0
+        },
+        "outline": { 
+            "color": "#ff9800", 
+            "edgeWidth": 3.0, 
+            "edgeSpread": 0.0, 
+            "edgeThickness": 2.0,
+            "blink": true 
+        }
+    }
+}
